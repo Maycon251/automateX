@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "automatex-icons";
+    src: url("/public/icon/automatex-icons.eot");
+    src: url("/public/icon/automatex-icons.eot?#iefix") format("embedded-opentype"),
+    url("/public/icon/automatex-icons.woff2") format("woff2"),
+    url("/public/icon/automatex-icons.woff") format("woff"),
+    url("/public/icon/automatex-icons.ttf") format("truetype"),
+    url("/public/icon/automatex-icons.svg#uxfonteditor") format("svg");
+}
+
+
+.icon {
+    font-family: "automatex-icons" !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-transform: none;
+    font-variant: normal;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+}
+
+.icon-return:before {
+  content: "\1";
+}
+
+.icon-group:before {
+  content: "\2";
+}
+
+.icon-bag:before {
+  content: "\3";
+}
+
+.icon-home:before {
+  content: "\4";
+}
+
+.icon-eye:before {
+  content: "\5";
+}
+
+.icon-edit:before {
+  content: "\6";
+}

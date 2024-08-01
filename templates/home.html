@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="shortcut icon" href="/public/img/logo.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutomateX | Automações</title>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="/public/css/automations.css">
+    <link rel="stylesheet" href="/public/css/light-theme.css">
+    <link rel="stylesheet" href="/public/css/global.css">
+    <link rel="stylesheet" href="/public/css/icon.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/jquery.inputmask.bundle.js"></script>
+    <script src="/public/js/global.js"></script>
+</head>
+<body>
+    <div class="contain-lat">
+        <nav>
+            <div class="top">
+                <a href="#"><img src="/public/img/profile.svg" class="img-profile" alt="foto de perfil"></a>
+            </div>
+            <ul class="menu-lat">
+                <a href="/" title="Automações">
+                    <li class="option selected icon icon-bag"></li>
+                </a>
+                <a href="/" title="Em desenvolvimento...">
+                    <li class="option icon icon-group"></li>
+                </a>
+            </ul>
+        </nav>
+        <main>
+            <header>
+                <div class="left">
+                    <h1 class="title">Automações</h1>
+                </div>
+                <div class="right">
+                    <button class="btn btn-spaced btn-highlight" onclick="location.replace('/automate/create')">+ nova automação</button>
+                </div>
+            </header>
+            <div class="contain-list">
+                <div class="list">
+                    <div class="automation">
+                        <div class="left info">
+                            <i class="icon icon-bag"></i>
+                            <label class="automation-name">FirstAutomation</label>
+                        </div>
+                        <div class="right action">
+                            <a href="#" class="btn btn-yellow"><i class="icon icon-edit"></i></a>
+                            <a href="#" class="btn btn-yellow"><i class="icon icon-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="automation">
+                        <div class="left info">
+                            <i class="icon icon-bag"></i>
+                            <label class="automation-name">SecondAutomation</label>
+                        </div>
+                        <div class="right action">
+                            <a href="#" class="btn btn-yellow"><i class="icon icon-edit"></i></a>
+                            <a href="#" class="btn btn-yellow"><i class="icon icon-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

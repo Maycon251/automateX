@@ -1,0 +1,48 @@
+.contain-list {
+    box-shadow: 4px 7px 15px 4px #000000b3;
+    background: var(--predpominant-bg-color);
+    margin: 20px 3em;
+    overflow: auto;
+    height: 75vh;
+    padding: 5px;
+}
+
+.automation {
+    justify-content: space-between;
+    position: relative;
+    padding: 20px 10px;
+    font-size: 1.4em;
+    display: flex;
+}
+
+.automation::after {
+    position: absolute;
+    border-radius: 6pc;
+    background: #000;
+    display: block;
+    height: 1.2px;
+    content: "";
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.automation div > * {
+    color: var(--predpominant-color);
+    padding: 0 5px;
+}
+
+.automation .right .btn {
+    background: #ffcc33;
+    display: inline-block;
+    margin-right: 0.5em;
+    text-align: center;
+    line-height: 32px;
+    font-size: 0.8em;
+    height: 32px;
+    width: 25px;
+}
+
+.automation-name {
+    font-family: "Arimo";
+}
